@@ -17,11 +17,9 @@ class App extends Component {
         userName: 'bob_loblaw',
         memberSince: '08/23/99',
       },
-      debitEntries: {
-        entries: []
-      }
     }
   }
+  
   mockLogIn = (logInInfo) => {
     const newUser = {...this.state.currentUser}
     newUser.userName=logInInfo.userName
@@ -33,14 +31,13 @@ class App extends Component {
       <UserProfile userName={this.state.currentUser.userName} memberSince={this.state.currentUser.memberSince} />
     );
     const LogInComponent = () => (<LogIn user={this.state.currentUser} mockLogIn= {this.mockLogIn} {...this.props}/>)
-    const DebitComponent = () => (<Debits debits = {this.state.debitEntries} />)
     return (
       <Router>
         <div>
           <Route exact path="/" render={HomeComponent}/>
           <Route exact path="/userProfile" render={UserProfileComponent} />
           <Route exact path="/login" render={LogInComponent} />
-          <Route exact path='/debits' render={DebitComponent} />
+          <Route exact path='/debits' component={Debits} />
           <Route exact path='/credits' component={Credits} />
         </div>
       </Router>
