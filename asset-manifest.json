@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bank-of-react/static/css/main.523f09c5.chunk.css",
-    "main.js": "/bank-of-react/static/js/main.bad53b9d.chunk.js",
-    "main.js.map": "/bank-of-react/static/js/main.bad53b9d.chunk.js.map",
+    "main.js": "/bank-of-react/static/js/main.2a3eaa60.chunk.js",
+    "main.js.map": "/bank-of-react/static/js/main.2a3eaa60.chunk.js.map",
     "runtime-main.js": "/bank-of-react/static/js/runtime-main.36cf4d5d.js",
     "runtime-main.js.map": "/bank-of-react/static/js/runtime-main.36cf4d5d.js.map",
     "static/js/2.c9eedd4d.chunk.js": "/bank-of-react/static/js/2.c9eedd4d.chunk.js",
     "static/js/2.c9eedd4d.chunk.js.map": "/bank-of-react/static/js/2.c9eedd4d.chunk.js.map",
     "index.html": "/bank-of-react/index.html",
-    "precache-manifest.c4b9202a3189046d21b6ecc655d452d1.js": "/bank-of-react/precache-manifest.c4b9202a3189046d21b6ecc655d452d1.js",
+    "precache-manifest.cc0a01e32bf77ad8761da3ae4cf82ff7.js": "/bank-of-react/precache-manifest.cc0a01e32bf77ad8761da3ae4cf82ff7.js",
     "service-worker.js": "/bank-of-react/service-worker.js",
     "static/css/main.523f09c5.chunk.css.map": "/bank-of-react/static/css/main.523f09c5.chunk.css.map",
     "static/js/2.c9eedd4d.chunk.js.LICENSE.txt": "/bank-of-react/static/js/2.c9eedd4d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.36cf4d5d.js",
     "static/js/2.c9eedd4d.chunk.js",
     "static/css/main.523f09c5.chunk.css",
-    "static/js/main.bad53b9d.chunk.js"
+    "static/js/main.2a3eaa60.chunk.js"
   ]
 }
